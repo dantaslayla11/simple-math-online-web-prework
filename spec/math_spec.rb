@@ -2,19 +2,19 @@ require 'spec_helper'
 
 describe "#addition" do 
   it "adds two numbers together" do
-    expect(addition(5,4)).to eq(9)
+    expect(addition(5+4)).to eq(9)
   end
 end
 
 describe "#subtraction" do
   it "subtracts two numbers from each other" do
-    expect(subtraction(10,5)).to eq(5)
+    expect(subtraction(10-5)).to eq(5)
   end
 end
 
 describe "#division" do
   it "divides one number by another" do
-    expect(division(50,2)).to eq(25)
+    expect(division(50/2)).to eq(25)
   end
 end
 
